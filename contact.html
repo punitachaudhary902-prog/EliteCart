@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICON ===============-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+
+    <!--=============== NICE SELECT CSS ===============-->
+    <link rel="stylesheet" href="assets/css/nice-select2.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>EliteCart</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+     <header class="header">
+      <!--===== Topbar =====-->
+      <div class="topbar">
+        <div class="topbar-container container">
+          <ul class="topbar-list">
+            <li class="topbar-item">
+              <a href="returns.html" class="topbar-link">Returns Policy</a>
+            </li>
+
+            <li class="topbar-item">
+              <a href="#Newsletter" class="topbar-link">Newsletter</a>
+            </li>
+
+            <li class="topbar-item">
+              <a href="contact.html" class="topbar-link">contact</a>
+            </li>
+          </ul>
+
+          <div class="topbar-socials">
+            <a href="https://www.facebook.com/" class="topbar-social-link">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" class="topbar-social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a href="https://www.youtube.com/" class="topbar-social-link">
+              <i class="ri-youtube-fill"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/" class="topbar-social-link">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+          </div>
+
+          <div class="topbar-shipping">
+            <img src="assets/img/truck.svg" alt="" class="topbar-icon" />
+            <p class="topbar-text">Free Shipping for all Orders of Rs.1000</p>
+          </div>
+        </div>
+      </div>
+
+        <!--===== Bottom bar =====-->
+        <div class="bottom-bar container">
+          <a href="index.html" class="">
+            <img src="assets/img/logo.png" alt="logo" class="navbar-logo" />
+          </a>
+
+          <form action="" class="navbar-form">
+            <select name="" class="navbar-select" style="display: none;" id="navbar-select">
+              <option value="all" selected>All Categories</option>
+              <option value="fas">Fashion</option>
+              <option value="ele">Electronics</option>
+              <option value="jew">Jewelry</option>
+              <option value="gro">Grocery</option>
+              <option value="gro">Home Furnitures</option>
+            </select>
+
+            <input type="text" placeholder="Search.." class="navbar-input" />
+
+            <button type="submit" class="navbar-search">
+              <i class="ri-search-line"></i>
+            </button>
+          </form>
+
+          <div class="navbar-btns">
+            <a href="account.html" class="navbar-btn">
+              <i class="ri-user-fill"></i>
+            </a>
+              
+            <a href="wishlist.html" class="navbar-btn">
+              <i class="ri-heart-fill"></i>
+            </a>
+
+            <a href="cart.html" class="navbar-btn">
+              <i class="ri-shopping-cart-fill"></i>
+            </a>
+
+          </div>
+
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+
+       <!--=====  Navbar =====-->        
+        <nav class="navbar container" id="nav-menu">
+          <a href="index.html" class="mobile-logo">
+            <img src="assets/img/logo.png" alt="" />
+          </a>
+
+          <form action="" class="navbar-form mobile-form">
+            <input type="text" placeholder="Search..." class="navbar-input" />
+
+            <button type="submit" class="navbar-search">
+              <i class="ri-search-line"></i>
+            </button>
+          </form>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link">Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="shop.html" class="navbar-link">Shop</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="account.html" class="navbar-link">Account</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="contact.html" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        
+          <div class="navbar-container">
+            <div class="navbar-contact">
+              <img src="assets/img/call.svg" alt="" class="navbar-icon" />
+              <a href="tel:+977-9829744352" class="navbar-call-link">+977-9829744352</a>
+            </div>
+
+            <div class="navbar-contact">
+              <img src="assets/img/message.svg" alt="" class="navbar-icon" />
+              <a href="mailto:punitachaudhary902@gmail.com" class="navbar-call-link">punitachaudhary902<br>@gmail.com</a>
+            </div>
+
+            <div class="navbar-contact">
+              <img src="assets/img/map.svg" alt="" class="navbar-icon" />
+              <p class="navbar-address">Janakpurdham-4,<br>Campuschowk</p>
+            </div>
+          </div>
+
+            <div class="nav-close" id="nav-close">
+              <i class="ri-close-circle-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+    <!--=============== BANNER ===============-->
+    <section class="banner">
+        <div class="container">
+          <h1 class="banner-title">Contact Us</h1>
+          <p class="banner-description">Let's Chat - Your Style Deserves Attention!</p>
+
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="index.html">Home</a>
+            </li>
+
+            <li class="breadcrumb-item">Contact Us</li>
+          </ul>
+        </div>
+    </section>
+
+    <!--=============== CONTACT ===============-->
+    <section class="contact section">
+      <div class="contact-container container grid">
+        <div>
+          <div class="contact-data">
+            <img src="assets/img/chat-icon.png" alt="" class="contac-img" />
+
+            <div>
+              <h3 class="contact-title">Talk to Us - We're Here for You</h3>
+              <p class="contact-description">
+                Have a question, request, or just want to say hi? Drop us a message below!
+              </p>
+            </div>
+          </div>
+
+          <form action="" class="contact-form form">
+            <div class="input-group">
+              <input type="text" class="input input-gray" placeholder="Full Name" />
+              <input type="email" class="input input-gray" placeholder="Email Address" />
+            </div>
+
+             <div class="input-group">
+              <input type="tel" class="input input-gray" placeholder="Phone No" />
+              <input type="text" class="input input-gray" placeholder="Order No" />
+            </div>
+
+            <textarea class="contact-area input" placeholder="Write a Message"></textarea>
+
+            <div class="checkbox-input contact-checkbox">
+              <input type="checkbox" id="save-data" />
+              
+              <label for="save-data" class="checkbox-label">
+                Save my name, email in this browser for the next time I review.
+              </label>
+            </div>
+
+            <button class="btn contact-btn">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-content">
+          <h3 class="contact-subtitle">Get in Touch</h3>
+
+          <div class="contact-info">
+            <div class="content-info-header">
+              <h4 class="contact-info-title">Working Hour</h4>
+              <img src="assets/img/clock.svg" alt="" class="contact-icon" />
+            </div>
+
+            <span class="contact-timing"><br>Sun - Thus,</br> 7:30 AM - 4:00 AM</span>
+            <span class="contact-timing"><br>Fri,</br> 8:00 AM - 1:00 AM</span>
+            <span class="contact-timing"><br>Sat,</br>Closed</span>
+          </div>
+
+          <div class="contact-info">
+            <div class="content-info-header">
+              <h4 class="contact-info-title">Say hello!</h4>
+              <img src="assets/img/message.svg" alt="" class="contact-icon" />
+            </div>
+
+            <div class="contact-mails grid">
+              <a href="mailto:punitachaudhary902@gmail.com" class="contact-mail-link">punitachaudhary902@gmail.com</a>
+              <a href="mailto:business@gmail.com" class="contact-mail-link">business@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <div class="content-info-header">
+              <h4 class="contact-info-title">Say hello!</h4>
+              <img src="assets/img/phone.svg" alt="" class="contact-icon" />
+            </div>
+
+            <ul class="contact-list grid">
+              <li class="contact-item">
+                Phone:
+                <a href="tel:+977-9829744352" class="contact-mail-link">+977-9829744352</a>
+              </li>
+
+              <li class="contact-item">
+                Fax:
+                <a href="tel:+977-9829744352" class="contact-mail-link">+977-9829744352</a>
+              </li>
+            </ul>
+          </div>
+
+           <div class="contact-info">
+            <div class="content-info-header">
+              <h4 class="contact-info-title">Say hello!</h4>
+              <img src="assets/img/map.svg" alt="" class="contact-icon" />
+            </div>
+
+           <p class="location-description">Janakpurdham-4,Campuschowk</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== ACCORDION ===============-->
+    <section class="accordion container section">
+      <div class="accordion-bg">
+        <h2 class="accordion-title">Useful Faq's</h2>
+
+        <div class="accordion-items grid">
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <i class="ri-add-line"></i>
+              <h3 class="accordion-subtitle">How do I place an order?</h3>
+            </div>
+
+            <div class="accordion-content">
+              <p class="accordion-description">
+                Once your order is shipped, you'll receive a tracking link via email. You can 
+                also log in to your account and view your order status anytime.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <i class="ri-add-line"></i>
+              <h3 class="accordion-subtitle">
+                Can I make changes to my order after placing it?
+              </h3>
+            </div>
+
+            <div class="accordion-content">
+              <p class="accordion-description">
+                Once your order is shipped, you'll receive a tracking link via email. You can 
+                also log in to your account and view your order status anytime.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <i class="ri-add-line"></i>
+              <h3 class="accordion-subtitle">How can I track my order?</h3>
+            </div>
+
+            <div class="accordion-content">
+              <p class="accordion-description">
+                Once your order is shipped, you'll receive a tracking link via email. You can 
+                also log in to your account and view your order status anytime.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <i class="ri-add-line"></i>
+              <h3 class="accordion-subtitle">What payment methods do accept?</h3>             </h3>
+            </div>
+
+            <div class="accordion-content">
+              <p class="accordion-description">
+                Once your order is shipped, you'll receive a tracking link via email. You can 
+                also log in to your account and view your order status anytime.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <i class="ri-add-line"></i>
+              <h3 class="accordion-subtitle">Can I cancel my order?</h3>
+            </div>
+
+            <div class="accordion-content">
+              <p class="accordion-description">
+                Once your order is shipped, you'll receive a tracking link via email. You can 
+                also log in to your account and view your order status anytime.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter" id="newsletter">
+      <div class="newsletter-container container grid">
+        <div class="newsletter-group">
+          <h2 class="section-title" data-title="Subscribe Newsletter">
+            <span>Enjoy 15% off*</span> <br />
+            your first order when you sing up
+          </h2>
+
+          <form action="" class="newsletter-form">
+            <input type="text" placeholder="Email Address.." class="newsletter-input" />
+
+            <button class="newsletter-btn">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </form>
+
+          <p>*New subscribers only.Discount excludes selected lines.</p>
+        </div>
+
+        <div class="newsletter-images grid">
+          <div class="flex">
+            <div class="newsletter-box">
+              <img src="assets/img/subscribe-img-1.jpg" alt="" class="newsletter-img" />
+            </div>
+
+            <div class="newsletter-box">
+              <img src="assets/img/subscribe-img-2.jpg" alt="" class="newsletter-img" />
+            </div>
+          </div>
+
+          <div class="newsletter-box">
+            <img src="assets/img/subscribe-img-3.jpg" alt="" class="newsletter-img" />
+          </div>
+         </div>
+      </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer-container container grid section">
+        <div>
+          <a href="index.html" class="">
+            <img src="assets/img/footer-logo.png" alt="" class="footer-logo" />
+          </a>
+
+          <div class="topbar-socials">
+            <a href="https://www.facebook.com/" class="topbar-social-link">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" class="topbar-social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a href="https://www.youtube.com/" class="topbar-social-link">
+              <i class="ri-youtube-fill"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/" class="topbar-social-link">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-container-div">
+          <h3 class="footer-title">Contact</h3>
+
+          <ul class="footer-contact grid">
+            <li class="footer-item">
+              <img src="assets/img/phone.svg" alt="" class="footer-icon">
+              <a href="tel:+977-9829744352" class="footer-link">+977-9829744352</a>
+            </li>
+
+            <li class="footer-item">
+              <img src="assets/img/envelope.svg" alt="" class="footer-icon">
+              <a href="mailto:punitachaudhary902@gmail.com" class="footer-link">punitachaudhary902<br>@gmail.com</a>
+            </li>
+
+            <li class="footer-item">
+              <img src="assets/img/map.svg" alt="" class="footer-icon">
+              <p class="footer-address">Janakpurdham-4,<br>Campuschowk</p>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-title">Links</h3>
+
+          <ul class="footer-links">
+            <li>
+              <a href="" class="footer-link">Our Products</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Testimonials</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Expert Team</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Product Details</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Help & Advise</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-title">About</h3>
+
+          <ul class="footer-links">
+            <li>
+              <a href="" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Perks</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Careers</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Trading</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-title">Terms</h3>
+
+          <ul class="footer-links">
+            <li>
+              <a href="" class="footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Terms & Conditions</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">About Cookies</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Brands Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-group container">
+        <span class="footer-copy">COPYRIGHT © 2026 EliteCart.</span>
+        <img src="assets/img/payment-method-1..png" alt="" class="footer-payment" />
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scrollup">
+      <i class="ri-arrow-up-line scrollup-icon"></i>
+    </a>
+
+    <!--=============== NICE SELECT JS ===============-->
+    <script src="assets/js/nice-select2.js"></script> 
+
+    <!--=============== ACCORDION JS ===============-->
+    <script src="assets/js/accordion.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

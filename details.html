@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICON ===============-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+
+    <!--=============== NICE SELECT CSS ===============-->
+    <link rel="stylesheet" href="assets/css/nice-select2.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>EliteCart</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+     <header class="header">
+      <!--===== Topbar =====-->
+      <div class="topbar">
+        <div class="topbar-container container">
+          <ul class="topbar-list">
+            <li class="topbar-item">
+              <a href="returns.html" class="topbar-link">Returns Policy</a>
+            </li>
+
+            <li class="topbar-item">
+              <a href="#Newsletter" class="topbar-link">Newsletter</a>
+            </li>
+
+            <li class="topbar-item">
+              <a href="contact.html" class="topbar-link">contact</a>
+            </li>
+          </ul>
+
+          <div class="topbar-socials">
+            <a href="https://www.facebook.com/" class="topbar-social-link">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" class="topbar-social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a href="https://www.youtube.com/" class="topbar-social-link">
+              <i class="ri-youtube-fill"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/" class="topbar-social-link">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+          </div>
+
+          <div class="topbar-shipping">
+            <img src="assets/img/truck.svg" alt="" class="topbar-icon" />
+            <p class="topbar-text">Free Shipping for all Orders of Rs.1000</p>
+          </div>
+        </div>
+      </div>
+
+        <!--===== Bottom bar =====-->
+        <div class="bottom-bar container">
+          <a href="index.html" class="">
+            <img src="assets/img/logo.png" alt="logo" class="navbar-logo" />
+          </a>
+
+          <form action="" class="navbar-form">
+            <select name="" class="navbar-select" style="display: none;" id="navbar-select">
+              <option value="all" selected>All Categories</option>
+              <option value="fas">Fashion</option>
+              <option value="ele">Electronics</option>
+              <option value="jew">Jewelry</option>
+              <option value="gro">Grocery</option>
+              <option value="gro">Home Furnitures</option>
+            </select>
+
+            <input type="text" placeholder="Search.." class="navbar-input" />
+
+            <button type="submit" class="navbar-search">
+              <i class="ri-search-line"></i>
+            </button>
+          </form>
+
+          <div class="navbar-btns">
+            <a href="account.html" class="navbar-btn">
+              <i class="ri-user-fill"></i>
+            </a>
+              
+            <a href="wishlist.html" class="navbar-btn">
+              <i class="ri-heart-fill"></i>
+            </a>
+
+            <a href="cart.html" class="navbar-btn">
+              <i class="ri-shopping-cart-fill"></i>
+            </a>
+
+          </div>
+
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+
+       <!--=====  Navbar =====-->        
+        <nav class="navbar container" id="nav-menu">
+          <a href="index.html" class="mobile-logo">
+            <img src="assets/img/logo.png" alt="" />
+          </a>
+
+          <form action="" class="navbar-form mobile-form">
+            <input type="text" placeholder="Search..." class="navbar-input" />
+
+            <button type="submit" class="navbar-search">
+              <i class="ri-search-line"></i>
+            </button>
+          </form>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link">Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="shop.html" class="navbar-link">Shop</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="account.html" class="navbar-link">Account</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="contact.html" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        
+          <div class="navbar-container">
+            <div class="navbar-contact">
+              <img src="assets/img/call.svg" alt="" class="navbar-icon" />
+              <a href="tel:+977-9829744352" class="navbar-call-link">+977-9829744352</a>
+            </div>
+
+            <div class="navbar-contact">
+              <img src="assets/img/message.svg" alt="" class="navbar-icon" />
+              <a href="mailto:punitachaudhary902@gmail.com" class="navbar-call-link">punitachaudhary902<br>@gmail.com</a>
+            </div>
+
+            <div class="navbar-contact">
+              <img src="assets/img/map.svg" alt="" class="navbar-icon" />
+              <p class="navbar-address">Janakpurdham-4,<br>Campuschowk</p>
+            </div>
+          </div>
+
+            <div class="nav-close" id="nav-close">
+              <i class="ri-close-circle-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== BANNER ===============-->
+      <section class="banner">
+        <div class="container">
+          <h1 class="banner-title">Product Details</h1>
+          <p class="banner-description">Everything You Need to Know</p>
+
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="index.html">Home</a>
+            </li>
+
+            <li class="breadcrumb-item">
+              <a href="shop.html">Shop</a>
+            </li>
+
+            <li class="breadcrumb-item">Product Details</li>
+          </ul>
+        </div>
+      </section>
+
+      <!--=============== DETAILS ===============-->
+      <section class="details section">
+        <div class="details-container container grid">
+          <div class="details-left">
+            <div class="details-images grid">
+              <img src="assets/img/product-1-1.jpg" alt="" class="details-img active-img">
+              <img src="assets/img/product-1-2.jpg" alt="" class="details-img">
+              <img src="assets/img/product-1-3.jpg" alt="" class="details-img">
+            </div>
+
+            <img src="assets/img/product-1-1.jpg" alt="" class="details-main-img">
+          </div>
+
+          <div class="details-right">
+            <ul class="product-stars">
+              <li><i class="ri-star-fill"></i></li>
+              <li><i class="ri-star-fill"></i></li>
+              <li><i class="ri-star-fill"></i></li>
+              <li><i class="ri-star-fill"></i></li>
+              <li><i class="ri-star-fill"></i></li>
+
+              <li class="product-rating">(4.9)</li>
+            </ul>
+
+            <h3 class="details-title">Short Denim jacket</h3>
+            <span class="product-price">Rs.999.99</span>
+
+            <ul class="details-key-points">
+              <li><i class="ri-check-line"></i> Modern Look</li>
+              <li><i class="ri-check-line"></i> High Quality Fabric</li>
+            </ul>
+
+            <h3 class="details-text">Hurry up, only 5 items left in stock.</h3>
+            <div class="details-progress">
+              <div class="progress-bar"></div>
+            </div>
+
+            <div class="details-size">
+              <span class="details-size-title">Select Size:</span>
+
+              <div class="product-size">
+                    <div>
+                      <input
+                        type="radio"
+                        name="size"
+                        class="product-size-input"
+                        id="x-small"
+                        checked
+                        />
+                        <label for="x-small" class="product-size-label">xs</label>
+                    </div>
+
+                    <div>
+                      <input type="radio" name="size" class="product-size-input" id="small" />
+                      <label for="small" class="product-size-label">s</label>
+                    </div>
+                    
+                    <div>
+                      <input type="radio" name="size" class="product-size-input" id="medium" />
+                      <label for="medium" class="product-size-label">m</label>
+                    </div>
+
+                    <div>
+                      <input type="radio" name="size" class="product-size-input" id="large" />
+                      <label for="large" class="product-size-label">l</label>
+                    </div>
+
+                    <div>
+                      <input type="radio" name="size" class="product-size-input" id="x-large" />
+                      <label for="x-large" class="product-size-label">xl</label>
+                    </div>
+              </div>
+            </div>
+
+            <div class="details-color">
+            <span class="details-color-title">Color:</span>
+
+            <div class="product-colors">
+              <div>
+               <input type="radio" name="color" class="product-color-input" />
+                <span 
+                class="product-color" 
+                style="--background-color: hsl(0, 60%, 64%)"
+                ></span>
+              </div>
+                   
+
+              <div>
+                <input type="radio" name="color" class="product-color-input" />
+                <span 
+                  class="product-color" 
+                  style="--background-color: hsl(0, 0%, 100%)"
+                ></span>
+              </div>
+
+              <div>
+                <input type="radio" name="color" class="product-color-input" />
+                <span 
+                  class="product-color" 
+                  style="--background-color: hsl(159, 46%, 56%)"
+                ></span>
+              </div>
+
+              <div>
+              <input type="radio" name="color" class="product-color-input" />
+                <span 
+                  class="product-color" 
+                  style="--background-color: hsl(223, 60%, 66%)"
+                ></span>
+              </div>
+
+              <div>
+                <input type="radio" name="color" class="product-color-input" />
+                <span 
+                  class="product-color" 
+                  style="--background-color: hsl(0, 100%, 68%)"
+                ></span>
+                </div>
+            </div>
+            </div>
+
+            <div class="details-cart">
+              <div class="add-to-cart">
+                <button type="button" class="sub">-</button>
+                <input type="text" value="1" class="count" />
+                <button type="button" class="add">+</button>
+              </div>
+
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="details-actions">
+              <a href="#"><i class="ri-arrow-left-right-line"></i> Add to Compare</a>
+              <a href="#"><i class="ri-heart-line"></i> Add to Wishlist</a>
+            </div>
+
+            <div class="details-return grid">
+              <li><i class="ri-truck-fill"></i> Free International Shipping over Rs.80,000</li>
+              <li><i class="ri-arrow-go-back-line"> Free Returns Within 30 days</i></li>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== DETAILS CONTENT ===============-->
+      <section class="details-content section container">
+        <div class="tab-btns">
+          <button class="tab-btn tab-active" data-target="#description">Description</button>
+          <button class="tab-btn tab-active" data-target="#specifications">Specifications</button>
+          <button class="tab-btn tab-active" data-target="#reviews">Reviews (04)</button>
+        </div>
+
+        <div class="tab-content">
+          <div class="tab-item tab-active" id="description">
+            <div class="description grid">
+              <div>
+                <p class="description-details">
+                  Add a dose of effortless cool to your wardrobe with our short Denim jacket-
+                  the perfect layering essential that never goes out of style.Designed with a
+                  cropped silhouette and tailored to flatter, this jaket blends timeless denim
+                  vibes with contemporary fashionforward details
+                  <br /><br />
+                  crafted from high-quality, breathable cotton denim, it offers just the right
+                  amount of structure while maintaining a soft, lived-in feel. Subtle 
+                  distressing along the seams and hem adds a touch of vintage edge, making it
+                  your go-to piece for casual chic days or elevated streetwear looks.
+                  <br /><br />
+                  Featuring classic button-down front closure,flap chest pockets, and buttoned
+                  cuffs,this jacket brings versatility to your style.Pair it with a flowy
+                  dress for a ;aid-back contrast, or throw it over a tee and high-waisted jeans
+                  for that effortlessly cool,off-duty model vibe.Available in classic washes
+                  like Light Blue,Washed Black,and Off-white,this jacket is an easy to wear
+                  as it is to love.From brunch dates to breezy evenings out,this piece is 
+                  your everyday laayering hero - ready to be styled your way.
+                </p>
+
+                <h3 class="description-title">Product Features</h3>
+
+                <ul class="description-list grid">
+                  <li>Front chest pockets with flap detail</li>
+                  <li>Button cuffs and front closure</li>
+                  <li>Lightly distressed edge for a vintage touch</li>
+                </ul>
+              </div>
+
+              <div class="description-images grid">
+                <img src="assets/img/description-1.jpg" alt="" class="description-img" />
+                <img src="assets/img/description-2.jpg" alt="" class="description-img" />
+                <img src="assets/img/description-3.jpg" alt="" class="description-img" />
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-item" id="specifications">
+            <ul class="specifications">
+              <li>
+                <h4>Brand:</h4>
+                <span>Artisanhide</span>
+              </li>
+
+              <li>
+                <h4>Color:</h4>
+                <span>Yellow</span>
+              </li>
+
+              <li>
+                <h4>Fabric:</h4>
+                <span>Premium Leather</span>
+              </li>
+
+              <li>
+                <h4>Weight:</h4>
+                <span>250 Gram</span>
+              </li>
+
+              <li>
+                <h4>Quility:</h4>
+                <span>Premium Plus</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-item" id="reviews">
+            <div class="reviews grid">
+              <div>
+                <h3 class="reviews-title">Review</h3>
+
+                <ul class="reviews-list grid">
+                  <li class="review-item">
+                    <img src="assets/img/comment-1.jpg" alt="" class="review-item" />
+
+                    <div>
+                      <div class="reviews-info">
+                        <h4 class="review-title">Akriti Chhetri</h4>
+                        <span class="review-date">Jan 11, 2026</span>
+
+                        <ul class="review-stars">
+                          <li><i class="ri-star-fill"></i></li>
+                          <li><i class="ri-star-fill"></i></li>
+                          <li><i class="ri-star-fill"></i></li>
+                          <li><i class="ri-star-fill"></i></li>
+                          <li><i class="ri-star-fill"></i></li>
+                        </ul>
+                      </div>
+
+                      <p class="review-description">
+                        Loving how these thrends blend creativity with individuality! Upcycled
+                        patch fashion is such a vibe-it's fashion with a story and a purpose.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="review-item">
+                    <img src="assets/img/comment-2.jpg" alt="" class="review-item" />
+
+                    <div>
+                      <div class="reviews-info">
+                        <h4 class="review-title">Nisha Mahato</h4>
+                        <span class="review-date">Jan 11, 2026</span>
+
+                        <ul class="review-stars">
+                          <li><i class="ri-star-fill"></i></li>
+                          <li><i class="ri-star-fill"></i></li>
+                          <li><i class="ri-star-fill"></i></li>
+                          <li><i class="ri-star-fill"></i></li>
+                          <li><i class="ri-star-fill"></i></li>
+                        </ul>
+                      </div>
+
+                      <p class="review-description">
+                        Loving how these thrends blend creativity with individuality! Upcycled
+                        patch fashion is such a vibe-it's fashion with a story and a purpose.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="review-item">
+                    <img src="assets/img/comment-3.jpg" alt="" class="review-item" />
+
+                    <div>
+                      <div class="reviews-info">
+                        <h4 class="review-title">Sima Jha</h4>
+                        <span class="review-date">Jan 11, 2026</span>
+
+                        <ul class="review-stars">
+                          <li><i class="ri-star-fill"></i></li>
+                          <li><i class="ri-star-fill"></i></li>
+                          <li><i class="ri-star-fill"></i></li>
+                          <li><i class="ri-star-fill"></i></li>
+                          <li><i class="ri-star-fill"></i></li>
+                        </ul>
+                      </div>
+
+                      <p class="review-description">
+                        Loving how these thrends blend creativity with individuality! Upcycled
+                        patch fashion is such a vibe-it's fashion with a story and a purpose.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+
+                <ul class="pagination reviews-pagination">
+                  <li>
+                    <a href="#" class="page-btn">
+                    <i class="ri-arrow-left-double-fill"></i>
+                    </a>
+                  </li>
+
+                  <li><a href="#" class="page-link">01</a></li>
+
+                  <li><a href="#" class="page-link active">02</a></li>
+
+                  <li><a href="#" class="page-link">03</a></li>
+
+                  <li><span class="dots">.......</span></li>
+
+                  <li><a href="#" class="page-link">08</a></li>
+
+                  <li>
+                    <a href="#" class="page-btn">
+                    <i class="ri-arrow-right-double-fill"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 class="reviews-title">Leave a Review</h3>
+
+                <form action="" class="review-form form">
+                  <textarea 
+                  name="" 
+                  class="input textarea" 
+                  placeholder="Write a Review" 
+                  id=""
+                  ></textarea>
+
+                  <input type="text" placeholder="Full Name" class="input" />
+
+                  <input type="Email" placeholder="Email Address" class="input" />
+
+                  <div class="checkbox-input">
+                    <input type="checkbox" id="save-data" />
+                    <label for="save-data" class="checkbox-label">
+                      Save my name, email in this browser for the next time I review.
+                    </label>
+                  </div>
+
+                  <div class="reviews-rating">
+                    <span class="reviews-rating-title">Select Rating:</span>
+
+                    <ul class="reviews-stars">
+                      <li><i class="ri-star-line"></i></li>
+                      <li><i class="ri-star-line"></i></li>
+                      <li><i class="ri-star-line"></i></li>
+                      <li><i class="ri-star-line"></i></li>
+                      <li><i class="ri-star-line"></i></li>
+                    </ul>
+                  </div>
+
+                  <button class="btn review-btn">Post Review</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter" id="newsletter">
+      <div class="newsletter-container container grid">
+        <div class="newsletter-group">
+          <h2 class="section-title" data-title="Subscribe Newsletter">
+            <span>Enjoy 15% off*</span> <br />
+            your first order when you sing up
+          </h2>
+
+          <form action="" class="newsletter-form">
+            <input type="text" placeholder="Email Address.." class="newsletter-input" />
+
+            <button class="newsletter-btn">
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </form>
+
+          <p>*New subscribers only.Discount excludes selected lines.</p>
+        </div>
+
+        <div class="newsletter-images grid">
+          <div class="flex">
+            <div class="newsletter-box">
+              <img src="assets/img/subscribe-img-1.jpg" alt="" class="newsletter-img" />
+            </div>
+
+            <div class="newsletter-box">
+              <img src="assets/img/subscribe-img-2.jpg" alt="" class="newsletter-img" />
+            </div>
+          </div>
+
+          <div class="newsletter-box">
+            <img src="assets/img/subscribe-img-3.jpg" alt="" class="newsletter-img" />
+          </div>
+         </div>
+      </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer-container container grid section">
+        <div>
+          <a href="index.html" class="">
+            <img src="assets/img/footer-logo.png" alt="" class="footer-logo" />
+          </a>
+
+          <div class="topbar-socials">
+            <a href="https://www.facebook.com/" class="topbar-social-link">
+              <i class="ri-facebook-circle-fill"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" class="topbar-social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+
+            <a href="https://www.youtube.com/" class="topbar-social-link">
+              <i class="ri-youtube-fill"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/" class="topbar-social-link">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-container-div">
+          <h3 class="footer-title">Contact</h3>
+
+          <ul class="footer-contact grid">
+            <li class="footer-item">
+              <img src="assets/img/phone.svg" alt="" class="footer-icon">
+              <a href="tel:+977-9829744352" class="footer-link">+977-9829744352</a>
+            </li>
+
+            <li class="footer-item">
+              <img src="assets/img/envelope.svg" alt="" class="footer-icon">
+              <a href="mailto:punitachaudhary902@gmail.com" class="footer-link">punitachaudhary902<br>@gmail.com</a>
+            </li>
+
+            <li class="footer-item">
+              <img src="assets/img/map.svg" alt="" class="footer-icon">
+              <p class="footer-address">Janakpurdham-4,<br>Campuschowk</p>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-title">Links</h3>
+
+          <ul class="footer-links">
+            <li>
+              <a href="" class="footer-link">Our Products</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Testimonials</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Expert Team</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Product Details</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Help & Advise</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-title">About</h3>
+
+          <ul class="footer-links">
+            <li>
+              <a href="" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Perks</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Careers</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Trading</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-title">Terms</h3>
+
+          <ul class="footer-links">
+            <li>
+              <a href="" class="footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Terms & Conditions</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">About Cookies</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-link">Brands Terms</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-group container">
+        <span class="footer-copy">COPYRIGHT © 2026 EliteCart.</span>
+        <img src="assets/img/payment-method-1..png" alt="" class="footer-payment" />
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scrollup">
+      <i class="ri-arrow-up-line scrollup-icon"></i>
+    </a>
+
+    <!--=============== NICE SELECT JS ===============-->
+    <script src="assets/js/nice-select2.js"></script> 
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+      const mainImg = document.querySelector('.details-main-img')
+        smallImg = document.querySelectorAll('.details-img');
+
+      smallImg.forEach((img) => {
+        img.addEventListener('click', function() {
+            mainImg.src = this.src;
+
+            smallImg.forEach((i) => i.classList.remove('active-img'));
+            this.classList.add('active-img');
+        });
+      });
+
+      const tabs = document.querySelectorAll('[data-target]'),
+        tabContents = document.querySelectorAll('.tab-item');
+
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          const target = document.querySelector(tab.dataset.target);
+          
+          tabContents.forEach((tabContent) => {
+            tabContent.classList.remove('tab-active');
+          });
+
+          target.classList.add('tab-active');
+
+          tabs.forEach((tab) => {
+            tab.classList.remove('tab-active');
+          });
+          tab.classList.add('tab-active');
+        });
+      });
+    </script>
+  </body>
+</html>

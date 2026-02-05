@@ -1,0 +1,94 @@
+========== HEADER ==========
+.topbar-social-link
+https://www.facebook.com/
+https://twitter.com/
+https://www.instagram.com/
+https://www.youtube.com/
+https://www.linkedin.com/
+
+.navbar-select
+All Categories
+Fashion
+Electronics
+Jewelry
+Grocery
+
+.navbar-input
+Search...
+
+
+========== HOME ==========
+.home-tag
+Top Trending
+
+.home-title
+Classic Elegant Style Women
+
+.home-description
+Discover timeless elegance and modern sophistication with our curated collection of women's fashion.
+
+.button
+Shop Now
+
+
+========== PRODUCTS ==========
+.product-btn
+Add to Cart
+
+.product-title | .product-price | .product-tag
+VelvetBloom Midi Dress
+Rs999.00
+Sale
+
+Short Denim jacket
+Rs999.00
+New
+
+CloudFit Joggers
+Rs999.00
+
+CloudFit Joggers
+Rs999.00
+
+
+========== CHECKOUT ==========
+.country-select
+Select Country
+Nepal
+United States
+China
+United Kingdom
+Australia
+India
+Japan
+
+.checkout-input
+First Name
+Last Name
+Address
+Apartment, suite, etc
+Zip Code
+
+.city-select
+Select City
+Kathmandu
+Janakpur
+Biratnagar
+Napalgunj
+Jumla
+Pokhara
+Dhangadi
+
+
+.state-select
+State
+Koshi
+Madhesh
+Bagmati
+Lumbibni
+Gandaki
+Karnali
+Sudurpashchim
+
+
+
